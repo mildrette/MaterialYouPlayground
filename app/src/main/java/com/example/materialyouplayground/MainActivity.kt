@@ -11,6 +11,7 @@ import com.example.materialyouplayground.ui.ThemeSwitcherScreen
 import com.example.materialyouplayground.ui.theme.AppTheme
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.setValue
+import com.example.materialyouplayground.ui.KotlinBasic
 
 
 class MainActivity : ComponentActivity() {
@@ -18,16 +19,18 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            var themeMode by rememberSaveable {
-                mutableStateOf(ThemeMode.SYSTEM)
-            }
 
-            AppTheme(themeMode) {
-                ThemeSwitcherScreen(
-                    currentMode = themeMode,
-                    onModeSelected = { themeMode = it }
-                )
-            }
+            KotlinBasic()
+//            var themeMode by rememberSaveable {
+//                mutableStateOf(ThemeMode.SYSTEM)
+//            }
+//
+//            AppTheme(themeMode) {
+//                ThemeSwitcherScreen(
+//                    currentMode = themeMode,
+//                    onModeSelected = { themeMode = it }
+//                )
+//            }
         }
     }
 }
