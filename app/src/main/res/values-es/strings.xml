@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aprender</string>
+    <string name="settings_title">Ajustes</string>
+    <string name="choose_theme">Elige un tema:</string>
+    <string name="theme_system">Sistema</string>
+    <string name="theme_light">Ligera</string>
+    <string name="theme_dark">Sombre</string>
+    <string name="language_title">Idioma</string>
+    <string name="language_english">Inglesa</string>
+    <string name="language_french">Francés</string>
+    <string name="language_spanish">Española</string>
+    <string name="Material_You_Design_Test">Prueba del material que diseñas</string>
+    <string name="Settings">Ajustes</string>
+    <string name="Learning_how_to_store_data_using_SharedPreferences">Aprender a almacenar datos usando SharedPreferences</string>
+    <string name="Current_Theme">Tema actual</string>
+    <string name="current_theme">Tema actual</string>
+
+    <string name="english">Inglés</string>
+    <string name="french">Francés</string>
+    <string name="spanish">Español</string>
+    <string name="system_default">Idioma del sistema</string>
+</resources>

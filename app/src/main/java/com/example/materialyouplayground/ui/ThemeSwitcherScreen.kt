@@ -54,17 +54,17 @@ fun ThemeSwitcherScreen(
 
             Text("Choose a theme:", style = MaterialTheme.typography.titleMedium)
 
-            ThemeButton(
+            ThemeButtonSoon(
                 text = "Light Mode",
                 selected = currentMode == AppTheme.LIGHT
             ) { onModeSelected(AppTheme.LIGHT) }
 
-            ThemeButton(
+            ThemeButtonSoon(
                 text = "Dark Mode",
                 selected = currentMode == AppTheme.DARK
             ) { onModeSelected(AppTheme.DARK) }
 
-            ThemeButton(
+            ThemeButtonSoon(
                 text = "System Default",
                 selected = currentMode == AppTheme.SYSTEM
             ) { onModeSelected(AppTheme.SYSTEM) }
@@ -73,7 +73,7 @@ fun ThemeSwitcherScreen(
 }
 
 @Composable
-fun ThemeButton(
+fun ThemeButtonSoon(
     text: String,
     selected: Boolean,
     onClick: () -> Unit

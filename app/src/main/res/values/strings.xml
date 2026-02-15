@@ -1,3 +1,26 @@
 <resources>
-    <string name="app_name">MaterialYouPlayground</string>
+    <string name="app_name">Learn</string>
+    <string name="settings_title">Settings</string>
+    <string name="choose_theme">Choose a Theme:</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="language_title">Language</string>
+    <string name="language_english">English</string>
+    <string name="language_french">French</string>
+    <string name="language_spanish">Spanish</string>
+    <string name="Material_You_Design_Test">Material You Design Test</string>
+    <string name="Settings">Settings</string>
+    <string name="Learning_how_to_store_data_using_SharedPreferences">Learning how to store data using SharedPreferences</string>
+    <string name="Current_Theme">Current Theme</string>
+    <string name="current_theme">Current Theme\n</string>
+
+    <string name="english">English</string>
+    <string name="french">French</string>
+    <string name="spanish">Spanish</string>
+    <string name="system_default">System Default</string>
+
 </resources>
+
+
+

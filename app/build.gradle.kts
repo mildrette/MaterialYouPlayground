@@ -40,6 +40,10 @@ android {
 }
 
 dependencies {
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("androidx.activity:activity-compose:1.8.2")
+    implementation("androidx.compose.material3:material3")
+
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose")
     implementation("androidx.compose.material:material-icons-extended")
     implementation(libs.androidx.compose.ui)
@@ -59,6 +63,8 @@ dependencies {
     implementation(libs.androidx.compose.material3)
     implementation(libs.androidx.ui)
     implementation(libs.androidx.material3)
+    implementation(libs.androidx.camera.camera2.pipe)
+    implementation(libs.androidx.appcompat)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
